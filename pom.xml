@@ -26,7 +26,14 @@
   </properties>
 
   <dependencies>
-      <!-- Cucumber Java -->
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.30</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <!-- Cucumber Java -->
    <!--   <dependency>
         <groupId>io.cucumber</groupId>
         <artifactId>cucumber-java</artifactId>
